@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>demo</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+	
+	<!-- 头部 -->
+	<header>
+		<div class="header_pic">
+			<img src="img/head.jpg"/>
+		</div>
+		<nav>
+			<ul class="node_ul">
+				<li class="on">主页</li>
+				<li>技能</li>
+				<li>技巧</li>
+				<li>排行榜</li>
+				<li>联系作者</li>
+			</ul>
+		</nav>
+	</header>
+	
+	<!-- 主页 -->
+	<div id="home" name="div" class="show">
+		<h3>美杜莎（大娜迦）</h3>
+		<div>
+			<p>DOTA2中最强大的后期之一，分裂箭使她拥有神装之后可以轻松清理敌法脆皮法师。魔法盾的存在让她异常坚挺，团战中几乎是屹立不倒的存在。</p>
+		</div>
+		<div name="home_img">
+			<img src="img/1.jpg"/>
+			<img src="img/2.jpg" class="hide"/>
+			<img src="img/3.jpg" class="hide"/>
+		</div>
+	</div>
+	
+	<!-- 技能 -->
+	<div id="jn" name="div" class="hide">
+		<h3>美杜莎四个技能</h3>
+		<img src="img/jn1.png" onclick="jn_img_click(this)" index="0" name="jn_img" title="分裂箭(快捷键：Q/T)"/>
+		<img src="img/jn2.png" onclick="jn_img_click(this)" index="1" name="jn_img" title="秘术异蛇(快捷键：W/C)"/>
+		<img src="img/jn3.png" onclick="jn_img_click(this)" index="2" name="jn_img" title="魔法护盾(快捷键：E/E)"/>
+		<img src="img/jn4.png" onclick="jn_img_click(this)" index="3" name="jn_img" title="石化凝视(快捷键：R/G)"/>
+		<img src="img/jn0.jpg" onclick="jn_img_click(this)" index="4" name="jn_img" title="新增：天赋系统"/>
+		<div>
+			<span>分裂箭</span>
+			<span>秘术异蛇</span>
+			<span>魔法护盾</span>
+			<span>石化凝视</span>
+			<span>新增：天赋系统</span>
+		</div>
+		<p>技能说明：</p>
+		<div>
+		<p name="jn_img_p">
+		分裂箭(快捷键：Q/T)<br>
+		等级 1 - 箭矢对2目标造成普通攻击时80%的伤害。<br>
+		等级 2 - 箭矢对3目标造成普通攻击时80%的伤害。<br>
+		等级 3 - 箭矢对4目标造成普通攻击时80%的伤害。<br>
+		等级 4 - 箭矢对5目标造成普通攻击时80%的伤害。
+		</p>
+		<p class="hide" name="jn_img_p">
+		秘术异蛇(快捷键：W/C)<br>
+		等级 1 - 初始伤害为80点，初始魔法偷取能量为20点。<br>
+		等级 2 - 初始伤害为120点，初始魔法偷取能量为35点。<br>
+		等级 3 - 初始伤害为160点，初始魔法偷取能量为50点。<br>
+		等级 4 - 初始伤害为200点，初始魔法偷取能量为65点。
+		</p>
+		<p class="hide" name="jn_img_p">
+		魔法护盾(快捷键：E/E)<br>
+		等级 1 - 每点魔法吸收1.6点的伤害。<br>
+		等级 2 - 每点魔法吸收1.9点的伤害。<br>
+		等级 3 - 每点魔法吸收2.2点的伤害。<br>
+		等级 4 - 每点魔法吸收2.5点的伤害。
+		</p>
+		<p class="hide" name="jn_img_p">
+		石化凝视(快捷键：R/G)<br>
+		等级 1 - 凝视时间5秒，额外承受50%物理伤害。<br>
+		等级 2 - 凝视时间6秒，额外承受50%物理伤害。<br>
+		等级 3 - 凝视时间7秒，额外承受50%物理伤害。
+		</p>
+		<p class="hide" name="jn_img_p">
+		新增：天赋系统<br>
+		等级 10 - +12 智力或+15 攻击力。<br>
+		等级 15 - +20 攻击速度或15% 闪避。<br>
+		等级 20 - +1 分裂箭目标或+600 魔法。<br>
+		等级 25 - +2秒 石化凝视眩晕时间或25% 吸血。<br>
+		</p>
+		</div>
+	</div>
+	
+	<!-- 技巧 -->
+	<div id="jq" name="div" class="hide">
+		<h3>推荐出装</h3>
+		<ul>
+			<li>出门装
+				<div id="jq_cm">
+					<img src="img/jq_cm1.png" title="树之祭祀&#10;价格  125"/>
+					<img src="img/jq_cm2.png" title="治疗药膏&#10;价格  110"/>
+					<img src="img/jq_cm3.png" title="守护指环&#10;价格  175"/>
+					<img src="img/jq_cm4.png" title="铁树枝干&#10;价格  50"/>
+					<img src="img/jq_cm4.png" title="铁树枝干&#10;价格  50"/>
+					<img src="img/jq_cm4.png" title="铁树枝干&#10;价格  50"/>
+				</div>
+			</li>
+			<li>中期核心装
+				<div id="jq_zq">
+					<img src="img/jq_zq1.png" title="动力鞋&#10;价格  1350"/>
+					<img src="img/jq_zq2.png" title="韧鼓&#10;价格  1775"/>
+					<img src="img/jq_zq3.png" title="魔杖&#10;价格  500"/>
+				</div>
+			</li>
+			<li>后期神装
+				<div id="jq_hq">
+					<img src="img/jq_hq1.png" title="远行鞋&#10;价格  2400"/>
+					<img src="img/jq_hq2.png" title="撒旦之邪力&#10;价格  6150"/>
+					<img src="img/jq_hq3.png" title="幻影斧&#10;价格  5000"/>
+					<img src="img/jq_hq4.png" title="圣剑&#10;价格  6200"/>
+					<img src="img/jq_hq5.png" title="蝴蝶&#10;价格  5775"/>
+					<img src="img/jq_hq6.png" title="代达罗斯之殇&#10;价格  5550"/>
+				</div>
+			</li>
+			<li>出装思路
+				<div id="jq_sl">
+					<p>美杜莎是一个极其需要撑三围的英雄，因此林肯冰眼这样的属性装备再适合她不过了。作为一个肉盾型持续输出，站得住才能输得出。圣剑携带者中有没有几个英雄能比她拿得更久，分裂箭的存在使得敌方的后排法师难以招架。</p>
+				</div>
+			</li>
+		</ul>
+	</div>
+	
+	<!-- 排行榜 -->
+	<div id="phb" name="div" class="hide">
+	<h3>美杜莎玩家排行榜</h3>
+	<table id="table_phb">
+		<tbody>
+			<tr class="phb_th">
+				<th>排名</th>
+				<th>玩家</th>
+				<th>英雄得分</th>
+				<th>匹配场数</th>
+			</tr>
+			<tr class="odd" name="tr_phb">
+				<td>1st</td>
+				<td>PrinceJ</td>
+				<td>6102</td>
+				<td>2582</td>
+			</tr>
+			<tr class="even" name="tr_phb">
+				<td>2nd</td>
+				<td>ckndr</td>
+				<td>6080</td>
+				<td>1113</td>
+			</tr>
+			<tr class="odd" name="tr_phb">
+				<td>3rd</td>
+				<td>DementiA.KennethKhoo</td>
+				<td>5987</td>
+				<td>1423</td>
+			</tr>
+			<tr class="even" name="tr_phb">
+				<td>4th</td>
+				<td>美杜莎</td>
+				<td>5965</td>
+				<td>2822</td>
+			</tr>
+			<tr class="odd" name="tr_phb">
+				<td>5th</td>
+				<td>。。。</td>
+				<td>5918</td>
+				<td>660</td>
+			</tr>
+		</tbody>
+	</table>
+	<h4>数据说明:</h4>
+	<p>上述表格的数据来源于<a href="http://www.dotabuff.com/">dotabuff</a>官网，获取日期为2017年9月</p>
+	</div>
+	
+	<!-- 联系作者 -->
+	<div id="lxzz" name="div" class="hide">
+	<h3>联系作者</h3>
+	<div>
+		<label>姓名：</label>
+		<input id="sub_name" type="text" placeholder="请输入您的名字"/>
+		<label>邮箱</label>
+		<input id="sub_mail" type="text" placeholder="请输入您的邮箱"/>
+		<label>留言</label>
+		<textarea id="sub_adv" type="textarea" placeholder="请输入您的留言"></textarea>
+		<input type="button" value="提交" onclick="lxzz_submit()"/>
+	</div>
+	</div>
+	<script type="text/javascript" src="javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+*{
+	margin:0px;
+	padding:0px
+}
+body{
+	background-color:#8B8378;
+}
+
+/* 头部样式 */
+header{
+	margin-left:300px;
+	margin-top:20px
+}
+.header_pic{
+	height:312px
+}
+nav{
+	width:973px;
+	height:42px;
+	background-color:#C5C1AA
+}
+nav ul{
+	padding-left:80px
+}
+nav ul li{
+	cursor:pointer;
+	float:left;
+	display:block;
+	height:40px;
+	width:80px;
+	text-align:center;
+	line-height:40px
+}
+.on{
+	background-color:#CD6839;
+	border-bottom:2px solid #CD3700
+}
+
+/* 主页页面样式 */
+#home,#jn,#jq,#phb,#lxzz{
+	margin-left:300px;
+	width:893px;
+	background-color:#FAEBD7;
+	padding-left:80px;
+	padding-top:10px;
+}
+
+#home{
+	padding-bottom:30px
+}
+
+#home p{
+	margin:10px 0px;
+	line-height:25px;
+}
+
+.hide{
+	display:none;
+}
+
+/* 技能页面样式 */
+#jn{
+	height:400px;
+}
+#jn span{
+	display:inline-block;
+	width:128px;
+	text-align:center;
+}
+#jn [name=jn_img_p]{
+	background-color:#C5C1AA;
+	width:400px;
+	height:110px;
+}
+
+/* 技巧页面样式 */
+#jq{
+	padding-bottom:20px;
+}
+#jq ul li{
+	margin-top:10px;
+}
+#jq_sl p{
+	width:700px;
+	background-color:#EED8AE;
+	padding:10px;
+}
+
+/* 排行榜页面样式 */
+#phb{
+	padding-bottom:20px
+}
+#phb h3,table,h4,p{
+	margin:10px 0px;
+}
+#phb .phb_th{
+	background-color:#8B3A3A;
+}
+#phb table td,th{
+	width:100px;
+	line-height:30px;
+	text-align:center;
+}
+#phb .odd{
+	background-color:#FFD39B;
+}
+#phb .even{
+	background-color:#CDB38B;
+}
+
+/* 联系作者页面样式 */
+#lxzz div{
+	padding:20px 0px;
+}
+#lxzz input,textarea{
+	display:block;
+	margin:10px 0px;
+}
+#lxzz textarea{
+	width:300px;
+	height:100px;
+}
+#lxzz [type=button]{
+	width:60px;
+	height:30px;
+}
+
+
+
